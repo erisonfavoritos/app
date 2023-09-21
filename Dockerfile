@@ -1,5 +1,9 @@
-FROM python:3.8
-WORKDIR /app
-COPY . /app
-RUN pip install --no-cache-dir -r requirements.txt
-CMD ["python","main.py"]
+DE python:3.9
+
+WORKDIR /aplicativo
+
+CÓPIA DE . /aplicativo
+
+EXECUTAR pip install --no-cache-dir -r requisitos.txt
+
+CMD ["python","streamlit", "main.py"]
