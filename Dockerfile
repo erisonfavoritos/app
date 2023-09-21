@@ -1,9 +1,9 @@
 FROM python:3.9
 
-WORKDIR /aplicativo
+WORKDIR /app
 
-COPY . /aplicativo
+COPY . /app
 
-RUN pip install --no-cache-dir -r requisitos.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["streamlit", "run", "main.py"]
+CMD ["python"", "streamlit", "run", "main.py"]
