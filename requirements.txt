@@ -1,2 +1,2 @@
-python==3.11
+python==3.9.0
 streamlit==1.26.0
